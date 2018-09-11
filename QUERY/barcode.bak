@@ -1,0 +1,63 @@
+ 1
+"Codici articoli/servizi"
+"KEY_ARTI"
+"KEY_ARTI"
+ 5
+ 5
+*
+ 4
+"Chiave di ricerca"
+"KEY_ARTI.CACODICE"
+"BARCODE"
+"Char"
+ 20
+ 0
+*
+"Descrizione alternativa"
+"KEY_ARTI.CADESART"
+"ARDESART"
+"Char"
+ 40
+ 0
+*
+"Desc. suppl. alternativa"
+"KEY_ARTI.CADESSUP"
+"ARDESSUP"
+"Memo"
+ 10
+ 0
+*
+"Codice articolo"
+"KEY_ARTI.CACODART"
+"ARCODART"
+"Char"
+ 20
+ 0
+*
+ 0
+ 1
+"KEY_ARTI.CATIPBAR"
+""
+"="
+"3"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 1
+.f.
+""
+*

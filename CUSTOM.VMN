@@ -1,0 +1,198 @@
+* --- CodePainter Revolution Menu Vers. 3.9
+""
+""
+""
+""
+""
+ 11
+*
+"Menù Principale"
+ 1
+""
+ 0
+ 0
+ 1
+"_5AG0O4340"
+.t.
+ 0
+"DIRCL.BMP"
+""
+""
+""
+""
+"MRU=|Tear Off="
+""
+"2018/09/07 11:15:01"
+""
+*
+"Personalizzazioni"
+ 2
+""
+ 2
+ 0
+ 9
+"_5AG0O4341"
+.t.
+ 1
+"DIRCL.BMP"
+""
+""
+"@ATTIVITÀ E SERVIZI###D§§§T"
+""
+"MRU=N|Tear Off=N"
+""
+*
+"Parametrizzazione"
+ 3
+"parametrizzazione"
+ 1
+ 1
+ 0
+"_5AG0O4342"
+.t.
+ 2
+"DIR_DESC.BMP"
+""
+""
+""
+""
+"MRU=N|Tear Off=N"
+""
+*
+"Export Casse"
+ 3
+"gsbe1kso"
+ 1
+ 1
+ 0
+"_5AG0O4343"
+.t.
+ 3
+"DIR_DESC.BMP"
+""
+""
+""
+""
+"MRU=N|Tear Off=N"
+""
+*
+"Export Casse - schedulatore"
+ 3
+"gsbe1kso_sk"
+ 1
+ 1
+ 0
+"_5AG0O4344"
+.t.
+ 4
+"DIR_DESC.BMP"
+""
+""
+""
+""
+"MRU=N|Tear Off=N"
+""
+*
+"Importazione Scontrini"
+ 3
+"gsba_kso"
+ 1
+ 1
+ 0
+"_5AG0O4345"
+.t.
+ 5
+"DIR_DESC.BMP"
+""
+""
+""
+""
+"MRU=N|Tear Off=N"
+""
+*
+"Importazione Corrispettivi"
+ 3
+"gsba_kso_doc"
+ 1
+ 1
+ 0
+"_5AG0O4346"
+.t.
+ 6
+"DIR_DESC.BMP"
+""
+""
+""
+""
+"MRU=N|Tear Off=N"
+""
+*
+"Importazione corrispettivi -  schedulatore"
+ 3
+"gsba_kso_doc_sk"
+ 1
+ 1
+ 0
+"_5AG0O4347"
+.t.
+ 7
+"DIR_DESC.BMP"
+""
+""
+""
+""
+"MRU=N|Tear Off=N"
+""
+*
+"Importazione fatture - schedulatore"
+ 3
+"gsba_kso_fatt_sk"
+ 1
+ 1
+ 0
+"_5AG0O4348"
+.t.
+ 8
+"DIR_DESC.BMP"
+""
+""
+""
+""
+"MRU=N|Tear Off=N"
+""
+*
+"Importazione DDT - schedulatore"
+ 3
+"gsba_kso_ddt_sk"
+ 1
+ 1
+ 0
+"_5AG0O4349"
+.t.
+ 9
+"DIR_DESC.BMP"
+""
+""
+""
+""
+"MRU=N|Tear Off=N"
+""
+*
+"Differenza importi AdHoc - Fox"
+ 3
+"vx_exec#ýquery\check_fatture.vqrý"
+ 1
+ 1
+ 0
+"_5AG0O434A"
+.t.
+ 10
+""
+""
+""
+""
+""
+"MRU=N|Tear Off=N"
+""
+*
+*

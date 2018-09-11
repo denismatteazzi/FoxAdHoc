@@ -1,0 +1,63 @@
+ 1
+"Saldi articoli"
+"SALDIART"
+"SALDIART"
+ 5
+ 5
+*
+ 5
+"Codice articolo"
+"SALDIART.SLCODICE"
+"ARCODART"
+"Char"
+ 20
+ 0
+*
+"Codice magazzino"
+"SALDIART.SLCODMAG"
+"SLCODMAG"
+"Char"
+ 5
+ 0
+*
+"Esistenza movimenti in linea"
+"SALDIART.SLQTAPER"
+"GIACENZA"
+"Numeric"
+ 12
+ 3
+*
+"Qta ordinata in linea"
+"SALDIART.SLQTOPER"
+"QTA_IMP"
+"Numeric"
+ 12
+ 3
+*
+"Qta impegnata in linea"
+"SALDIART.SLQTIPER"
+"QTA_ORD"
+"Numeric"
+ 12
+ 3
+*
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 2
+.f.
+""
+*

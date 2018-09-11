@@ -1,0 +1,154 @@
+ 1
+"Conti"
+"CONTI"
+"CONTI"
+ 5
+ 5
+*
+ 14
+"Tipo C/F/G"
+"CONTI.ANTIPCON"
+"ANTIPCON"
+"Char"
+ 1
+ 0
+*
+"Codice conto"
+"CONTI.ANCODICE"
+"ANCODICE"
+"Char"
+ 15
+ 0
+*
+"Descrizione"
+"CONTI.ANDESCRI"
+"ANDESCRI"
+"Char"
+ 60
+ 0
+*
+"2^Descrizione"
+"CONTI.ANDESCR2"
+"ANDESCR2"
+"Char"
+ 60
+ 0
+*
+"Indirizzo"
+"CONTI.ANINDIRI"
+"ANINDIRI"
+"Char"
+ 35
+ 0
+*
+"Indirizzo 2"
+"CONTI.ANINDIR2"
+"ANINDIR2"
+"Char"
+ 35
+ 0
+*
+"CAP"
+"CONTI.AN___CAP"
+"AN___CAP"
+"Char"
+ 9
+ 0
+*
+"Località"
+"CONTI.ANLOCALI"
+"ANLOCALI"
+"Char"
+ 30
+ 0
+*
+"Provincia"
+"CONTI.ANPROVIN"
+"ANPROVIN"
+"Char"
+ 2
+ 0
+*
+"Codice nazione"
+"CONTI.ANNAZION"
+"ANNAZION"
+"Char"
+ 3
+ 0
+*
+"Telefono"
+"CONTI.ANTELEFO"
+"ANTELEFO"
+"Char"
+ 18
+ 0
+*
+"Cellulare"
+"CONTI.ANNUMCEL"
+"ANNUMCEL"
+"Char"
+ 18
+ 0
+*
+"Partita IVA"
+"CONTI.ANPARIVA"
+"ANPARIVA"
+"Char"
+ 12
+ 0
+*
+"Codice fiscale"
+"CONTI.ANCODFIS"
+"ANCODFIS"
+"Char"
+ 16
+ 0
+*
+ 0
+ 3
+"CONTI.ANTIPCON"
+""
+"="
+"ýCý"
+"AND"
+""
+*
+"CONTI.UTDC"
+""
+">="
+"?w_DATA_EXP"
+"OR"
+""
+*
+"CONTI.UTDV"
+""
+">="
+"?w_DATA_EXP"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"w_DATA_EXP"
+"Data inserimento"
+"Date"
+"14"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 5
+.f.
+""
+*

@@ -1,0 +1,159 @@
+ 2
+"Articoli"
+"ART_ICOL"
+"ART_ICOL"
+ 184
+ 203
+*
+"Dati articolo x valorizz."
+"PAR_RIOR"
+"PAR_RIOR"
+ 5
+ 5
+*
+ 14
+"Codice articolo"
+"ART_ICOL.ARCODART"
+"ARCODART"
+"Char"
+ 20
+ 0
+*
+"Descrizione"
+"ART_ICOL.ARDESART"
+"ARDESART"
+"Char"
+ 40
+ 0
+*
+"Descrizione supplementare"
+"ART_ICOL.ARDESSUP"
+"ARDESSUP"
+"Memo"
+ 10
+ 0
+*
+"Codice IVA"
+"ART_ICOL.ARCODIVA"
+"ARCODIVA"
+"Char"
+ 5
+ 0
+*
+"Codice marchio"
+"ART_ICOL.ARCODMAR"
+"ARCODMAR"
+"Char"
+ 5
+ 0
+*
+"Codice famiglia"
+"ART_ICOL.ARCODFAM"
+"ARCODFAM"
+"Char"
+ 5
+ 0
+*
+"Gruppo merceologico"
+"ART_ICOL.ARGRUMER"
+"ARGRUMER"
+"Char"
+ 5
+ 0
+*
+"Categ. omogenea"
+"ART_ICOL.ARCATOMO"
+"ARCATOMO"
+"Char"
+ 5
+ 0
+*
+"1^ Unità di misura"
+"ART_ICOL.ARUNMIS1"
+"ARUNMIS1"
+"Char"
+ 3
+ 0
+*
+"Prezzo Vendita"
+"0000000000.0000"
+"PREZZO_VEND"
+"Numeric"
+ 9
+ 3
+*
+"Prezzo Acquisto"
+"0000000000.0000"
+"PREZZO_ACQ"
+"Numeric"
+ 9
+ 3
+*
+"Fornitore abituale"
+"PAR_RIOR.PRCODFOR"
+"PRCODFOR"
+"Char"
+ 15
+ 0
+*
+"Codice produttore"
+"PAR_RIOR.PRCODPRO"
+"PRCODPRO"
+"Char"
+ 15
+ 0
+*
+"Data variazione"
+"ART_ICOL.UTDV"
+"UTDV"
+"Date"
+ 14
+ 0
+*
+ 1
+"Dati articolo x valorizz.(Codice articolo)"
+"ART_ICOL.ARCODART=PAR_RIOR.PRCODART"
+"Left outer"
+"ART_ICOL"
+"PAR_RIOR"
+*
+ 2
+"ART_ICOL.UTDC"
+""
+">="
+"?w_DATA_EXP"
+"OR"
+""
+*
+"ART_ICOL.UTDV"
+""
+">="
+"?w_DATA_EXP"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"w_DATA_EXP"
+"Data inserimento"
+"Date"
+"14"
+"0"
+""
+*
+""
+.t.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 29
+.f.
+""
+*

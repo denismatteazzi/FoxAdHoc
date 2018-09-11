@@ -1,0 +1,123 @@
+ 1
+"Documenti (Master)"
+"DOC_MAST"
+"DOC_MAST"
+ 5
+ 5
+*
+ 11
+"Data registrazione"
+"DOC_MAST.MVDATREG"
+"MVDATREG"
+"Date"
+ 8
+ 0
+*
+"Numero documento"
+"DOC_MAST.MVNUMDOC"
+"MVNUMDOC"
+"Numeric"
+ 17
+ 0
+*
+"* Totale Imposta FOX"
+"DOC_MAST.MVFOXTIMP"
+"MVFOXTIMP"
+"Numeric"
+ 20
+ 4
+*
+"* Totale Imponibile FOX"
+"DOC_MAST.MVFOXTIMB"
+"MVFOXTIMB"
+"Numeric"
+ 20
+ 4
+*
+"Imposta aliq. 1"
+"DOC_MAST.MVAIMPS1"
+"MVAIMPS1"
+"Numeric"
+ 20
+ 4
+*
+"Imponibile aliq. 1"
+"DOC_MAST.MVAIMPN1"
+"MVAIMPN1"
+"Numeric"
+ 20
+ 4
+*
+"Imposta aliq. 1"
+"DOC_MAST.MVAIMPS2"
+"MVAIMPS2"
+"Numeric"
+ 20
+ 4
+*
+"Imponibile aliq. 1"
+"DOC_MAST.MVAIMPN2"
+"MVAIMPN2"
+"Numeric"
+ 20
+ 4
+*
+"Totale sconti globali"
+"DOC_MAST.MVSCONTI"
+"MVSCONTI"
+"Numeric"
+ 20
+ 4
+*
+"Delta"
+"DOC_MAST.MVAIMPN1+DOC_MAST.MVAIMPN2+DOC_MAST.MVAIMPN3+DOC_MAST.MVAIMPN4-MVFOXTIMB"
+"DELTA"
+"Numeric"
+ 20
+ 4
+*
+"Tipo documento"
+"DOC_MAST.MVTIPDOC"
+"MVTIPDOC"
+"Char"
+ 5
+ 0
+*
+ 0
+ 2
+"DOC_MAST.MVFOXTIMP+DOC_MAST.MVFOXTIMB"
+""
+"<>"
+"DOC_MAST.MVAIMPS1+DOC_MAST.MVAIMPN1+DOC_MAST.MVAIMPS2+DOC_MAST.MVAIMPN2"
+"AND"
+""
+*
+"DOC_MAST.MVFOXTIMP+DOC_MAST.MVFOXTIMB"
+""
+">"
+"0"
+"AND"
+""
+*
+ 1
+"Delta"
+"DELTA"
+"Ascending"
+*
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 9
+.f.
+""
+*

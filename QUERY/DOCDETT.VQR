@@ -1,0 +1,945 @@
+ 1
+"Documenti (Detail)"
+"DOC_DETT"
+"DOC_DETT"
+ 194
+ 96
+*
+ 130
+"Chiave primaria"
+"DOC_DETT.MVSERIAL"
+"MVSERIAL"
+"Char"
+ 10
+ 0
+*
+""
+"DOC_DETT.CPROWNUM"
+"CPROWNUM"
+"Numeric"
+ 4
+ 0
+*
+"Numero riga"
+"DOC_DETT.CPROWORD"
+"CPROWORD"
+"Numeric"
+ 5
+ 0
+*
+"Rif.archivio (-20)"
+"DOC_DETT.MVNUMRIF"
+"MVNUMRIF"
+"Numeric"
+ 3
+ 0
+*
+"Chiave di ricerca"
+"DOC_DETT.MVCODICE"
+"MVCODICE"
+"Char"
+ 20
+ 0
+*
+"Tipo riga"
+"DOC_DETT.MVTIPRIG"
+"MVTIPRIG"
+"Char"
+ 1
+ 0
+*
+"Descrizione"
+"DOC_DETT.MVDESART"
+"MVDESART"
+"Char"
+ 40
+ 0
+*
+"Codice articolo"
+"DOC_DETT.MVCODART"
+"MVCODART"
+"Char"
+ 20
+ 0
+*
+"U.M."
+"DOC_DETT.MVUNIMIS"
+"MVUNIMIS"
+"Char"
+ 3
+ 0
+*
+"Categ. contabile"
+"DOC_DETT.MVCATCON"
+"MVCATCON"
+"Char"
+ 5
+ 0
+*
+"Descrizione aggiuntiva"
+"DOC_DETT.MVDESSUP"
+"MVDESSUP"
+"Memo"
+ 10
+ 0
+*
+"Contropartita IVA indetraibile"
+"DOC_DETT.MVCONIND"
+"MVCONIND"
+"Char"
+ 15
+ 0
+*
+"Causale magazzino"
+"DOC_DETT.MVCAUMAG"
+"MVCAUMAG"
+"Char"
+ 5
+ 0
+*
+"Contropartita contab"
+"DOC_DETT.MVCONTRO"
+"MVCONTRO"
+"Char"
+ 15
+ 0
+*
+"Caus. mag. collegata"
+"DOC_DETT.MVCAUCOL"
+"MVCAUCOL"
+"Char"
+ 5
+ 0
+*
+"Codice magazzino"
+"DOC_DETT.MVCODMAG"
+"MVCODMAG"
+"Char"
+ 5
+ 0
+*
+"Magazzino collegato"
+"DOC_DETT.MVCODMAT"
+"MVCODMAT"
+"Char"
+ 5
+ 0
+*
+"Tipologia (filtro)"
+"DOC_DETT.MVCODCLA"
+"MVCODCLA"
+"Char"
+ 3
+ 0
+*
+"Codice listino"
+"DOC_DETT.MVCODLIS"
+"MVCODLIS"
+"Char"
+ 5
+ 0
+*
+"Qta movimentata"
+"DOC_DETT.MVQTAMOV"
+"MVQTAMOV"
+"Numeric"
+ 12
+ 3
+*
+"Qta 1^U.M."
+"DOC_DETT.MVQTAUM1"
+"MVQTAUM1"
+"Numeric"
+ 12
+ 3
+*
+"Prezzo unitario"
+"DOC_DETT.MVPREZZO"
+"MVPREZZO"
+"Numeric"
+ 18
+ 5
+*
+"1^Sconto"
+"DOC_DETT.MVSCONT1"
+"MVSCONT1"
+"Numeric"
+ 6
+ 2
+*
+"2^Sconto"
+"DOC_DETT.MVSCONT2"
+"MVSCONT2"
+"Numeric"
+ 6
+ 2
+*
+"3^Sconto"
+"DOC_DETT.MVSCONT3"
+"MVSCONT3"
+"Numeric"
+ 6
+ 2
+*
+"4^Sconto"
+"DOC_DETT.MVSCONT4"
+"MVSCONT4"
+"Numeric"
+ 6
+ 2
+*
+"Flag omaggio/sc.merc"
+"DOC_DETT.MVFLOMAG"
+"MVFLOMAG"
+"Char"
+ 1
+ 0
+*
+"Codice IVA (articolo)"
+"DOC_DETT.MVCODIVA"
+"MVCODIVA"
+"Char"
+ 5
+ 0
+*
+"Totale riga+sconti R"
+"DOC_DETT.MVVALRIG"
+"MVVALRIG"
+"Numeric"
+ 18
+ 4
+*
+"Spese accessorie"
+"DOC_DETT.MVIMPACC"
+"MVIMPACC"
+"Numeric"
+ 18
+ 4
+*
+"Contratto"
+"DOC_DETT.MVCONTRA"
+"MVCONTRA"
+"Char"
+ 15
+ 0
+*
+"Tot.riga x agg.saldi"
+"DOC_DETT.MVVALMAG"
+"MVVALMAG"
+"Numeric"
+ 18
+ 4
+*
+"Importo in val.naz."
+"DOC_DETT.MVIMPNAZ"
+"MVIMPNAZ"
+"Numeric"
+ 18
+ 4
+*
+"Importo sconti globa"
+"DOC_DETT.MVIMPSCO"
+"MVIMPSCO"
+"Numeric"
+ 18
+ 4
+*
+"Flag carichi/scarichi"
+"DOC_DETT.MVFLCASC"
+"MVFLCASC"
+"Char"
+ 1
+ 0
+*
+""
+"DOC_DETT.MVF2CASC"
+"MVF2CASC"
+"Char"
+ 1
+ 0
+*
+"Chiave per agg. saldi"
+"DOC_DETT.MVKEYSAL"
+"MVKEYSAL"
+"Char"
+ 20
+ 0
+*
+""
+"DOC_DETT.MVF2ORDI"
+"MVF2ORDI"
+"Char"
+ 1
+ 0
+*
+"Flag ordinato"
+"DOC_DETT.MVFLORDI"
+"MVFLORDI"
+"Char"
+ 1
+ 0
+*
+""
+"DOC_DETT.MVF2IMPE"
+"MVF2IMPE"
+"Char"
+ 1
+ 0
+*
+"Flag impegnato"
+"DOC_DETT.MVFLIMPE"
+"MVFLIMPE"
+"Char"
+ 1
+ 0
+*
+""
+"DOC_DETT.MVF2RISE"
+"MVF2RISE"
+"Char"
+ 1
+ 0
+*
+"Flag riservato"
+"DOC_DETT.MVFLRISE"
+"MVFLRISE"
+"Char"
+ 1
+ 0
+*
+"Percent.provvigioni"
+"DOC_DETT.MVPERPRO"
+"MVPERPRO"
+"Numeric"
+ 5
+ 2
+*
+"Importo provvigioni"
+"DOC_DETT.MVIMPPRO"
+"MVIMPPRO"
+"Numeric"
+ 18
+ 4
+*
+"Peso netto"
+"DOC_DETT.MVPESNET"
+"MVPESNET"
+"Numeric"
+ 9
+ 3
+*
+"Test trasporto INTRA"
+"DOC_DETT.MVFLTRAS"
+"MVFLTRAS"
+"Char"
+ 1
+ 0
+*
+"Nomenclatura"
+"DOC_DETT.MVNOMENC"
+"MVNOMENC"
+"Char"
+ 8
+ 0
+*
+"UM supplementare"
+"DOC_DETT.MVUMSUPP"
+"MVUMSUPP"
+"Char"
+ 3
+ 0
+*
+"Nazione di provenienienza"
+"DOC_DETT.MVNAZPRO"
+"MVNAZPRO"
+"Char"
+ 3
+ 0
+*
+"Moltipl. UM supplementare"
+"DOC_DETT.MVMOLSUP"
+"MVMOLSUP"
+"Numeric"
+ 8
+ 3
+*
+"Prov.origine/dest."
+"DOC_DETT.MVPROORD"
+"MVPROORD"
+"Char"
+ 2
+ 0
+*
+"Numero colli"
+"DOC_DETT.MVNUMCOL"
+"MVNUMCOL"
+"Numeric"
+ 5
+ 0
+*
+"| Obsoleto |"
+"DOC_DETT.MVTIPCOL"
+"MVTIPCOL"
+"Char"
+ 20
+ 0
+*
+"Codice commessa"
+"DOC_DETT.MVCODCOM"
+"MVCODCOM"
+"Char"
+ 15
+ 0
+*
+"Qta evasa"
+"DOC_DETT.MVQTAEVA"
+"MVQTAEVA"
+"Numeric"
+ 12
+ 3
+*
+"Qta evasa UM1"
+"DOC_DETT.MVQTAEV1"
+"MVQTAEV1"
+"Numeric"
+ 12
+ 3
+*
+"Liv.raggruppamento"
+"DOC_DETT.MVFLRAGG"
+"MVFLRAGG"
+"Char"
+ 1
+ 0
+*
+"Valore evaso forfait"
+"DOC_DETT.MVIMPEVA"
+"MVIMPEVA"
+"Numeric"
+ 18
+ 5
+*
+"Qta x agg.saldi"
+"DOC_DETT.MVQTASAL"
+"MVQTASAL"
+"Numeric"
+ 12
+ 3
+*
+"Data evas.effettiva"
+"DOC_DETT.MVEFFEVA"
+"MVEFFEVA"
+"Date"
+ 8
+ 0
+*
+"Data evasione prevista"
+"DOC_DETT.MVDATEVA"
+"MVDATEVA"
+"Date"
+ 8
+ 0
+*
+"Test elab.G.M."
+"DOC_DETT.MVFLELGM"
+"MVFLELGM"
+"Char"
+ 1
+ 0
+*
+"Flag riga evasa"
+"DOC_DETT.MVFLEVAS"
+"MVFLEVAS"
+"Char"
+ 1
+ 0
+*
+"Rownum doc.origine"
+"DOC_DETT.MVROWRIF"
+"MVROWRIF"
+"Numeric"
+ 4
+ 0
+*
+"Serial doc. origine"
+"DOC_DETT.MVSERRIF"
+"MVSERRIF"
+"Char"
+ 10
+ 0
+*
+"Qta non conforme"
+"DOC_DETT.MVQTANOC"
+"MVQTANOC"
+"Numeric"
+ 12
+ 3
+*
+"Flag aggiorna evaso"
+"DOC_DETT.MVFLARIF"
+"MVFLARIF"
+"Char"
+ 1
+ 0
+*
+"Flag rendere/scarto"
+"DOC_DETT.MVFLRESC"
+"MVFLRESC"
+"Char"
+ 1
+ 0
+*
+"Fl.ev.riga doc.origi"
+"DOC_DETT.MVFLERIF"
+"MVFLERIF"
+"Char"
+ 1
+ 0
+*
+"Tipo attività"
+"DOC_DETT.MVTIPATT"
+"MVTIPATT"
+"Char"
+ 1
+ 0
+*
+"Qta resa o distrutta"
+"DOC_DETT.MVQTARES"
+"MVQTARES"
+"Numeric"
+ 12
+ 3
+*
+"Codice costo"
+"DOC_DETT.MVCODCOS"
+"MVCODCOS"
+"Char"
+ 5
+ 0
+*
+"Flag riap.ordine"
+"DOC_DETT.MVFLRIAP"
+"MVFLRIAP"
+"Char"
+ 1
+ 0
+*
+"Prezzo concordato"
+"DOC_DETT.MVPRECON"
+"MVPRECON"
+"Numeric"
+ 18
+ 4
+*
+"Flag agg.ordinato/commessa"
+"DOC_DETT.MVFLORCO"
+"MVFLORCO"
+"Char"
+ 1
+ 0
+*
+"Flag agg.consuntivo"
+"DOC_DETT.MVFLCOCO"
+"MVFLCOCO"
+"Char"
+ 1
+ 0
+*
+"Flag ult. prezzo vendita"
+"DOC_DETT.MVFLULPV"
+"MVFLULPV"
+"Char"
+ 1
+ 0
+*
+"Flag ultimo costo acquisti"
+"DOC_DETT.MVFLULCA"
+"MVFLULCA"
+"Char"
+ 1
+ 0
+*
+"Importo in commessa"
+"DOC_DETT.MVIMPCOM"
+"MVIMPCOM"
+"Numeric"
+ 18
+ 4
+*
+"Ultimo costo o prezzo"
+"DOC_DETT.MVVALULT"
+"MVVALULT"
+"Numeric"
+ 18
+ 4
+*
+"Inizio competenza"
+"DOC_DETT.MVINICOM"
+"MVINICOM"
+"Date"
+ 8
+ 0
+*
+"Data generazione FD"
+"DOC_DETT.MVDATGEN"
+"MVDATGEN"
+"Date"
+ 8
+ 0
+*
+"Fine competenza"
+"DOC_DETT.MVFINCOM"
+"MVFINCOM"
+"Date"
+ 8
+ 0
+*
+"Rif.prov.ordine"
+"DOC_DETT.MVRIFORD"
+"MVRIFORD"
+"Char"
+ 10
+ 0
+*
+"Codice attività"
+"DOC_DETT.MVCODATT"
+"MVCODATT"
+"Char"
+ 15
+ 0
+*
+"Centro di costo"
+"DOC_DETT.MVCODCEN"
+"MVCODCEN"
+"Char"
+ 15
+ 0
+*
+"Rif.codice OCL"
+"DOC_DETT.MVCODODL"
+"MVCODODL"
+"Char"
+ 15
+ 0
+*
+"Voce di costo"
+"DOC_DETT.MVVOCCEN"
+"MVVOCCEN"
+"Char"
+ 15
+ 0
+*
+"Codice tipologia collo"
+"DOC_DETT.MVCODCOL"
+"MVCODCOL"
+"Char"
+ 5
+ 0
+*
+"Flag.mov.ripartito"
+"DOC_DETT.MVFLRIPA"
+"MVFLRIPA"
+"Char"
+ 1
+ 0
+*
+"Importi rip. sp.bolli/arrotondamenti"
+"DOC_DETT.MVIMPRBA"
+"MVIMPRBA"
+"Numeric"
+ 18
+ 4
+*
+"Flag movimento di analitica"
+"DOC_DETT.MVFLELAN"
+"MVFLELAN"
+"Char"
+ 1
+ 0
+*
+"Rif.documento esplosione componenti"
+"DOC_DETT.MVRIFESC"
+"MVRIFESC"
+"Char"
+ 10
+ 0
+*
+"Rif.riga materiale OCL"
+"DOC_DETT.MVRIGMAT"
+"MVRIGMAT"
+"Numeric"
+ 4
+ 0
+*
+"Flag aggiorna lotti mag.collegato"
+"DOC_DETT.MVF2LOTT"
+"MVF2LOTT"
+"Char"
+ 1
+ 0
+*
+"Flag aggiorna lotti"
+"DOC_DETT.MVFLLOTT"
+"MVFLLOTT"
+"Char"
+ 1
+ 0
+*
+"Codice lotto"
+"DOC_DETT.MVCODLOT"
+"MVCODLOT"
+"Char"
+ 20
+ 0
+*
+"Codice ubicazione mag.collegato"
+"DOC_DETT.MVCODUB2"
+"MVCODUB2"
+"Char"
+ 20
+ 0
+*
+"Flag riga riaddebita spese"
+"DOC_DETT.MV_FLAGG"
+"MV_FLAGG"
+"Char"
+ 1
+ 0
+*
+"Flag riga DDT di C/Lavoro rivalorizzata"
+"DOC_DETT.MVFLRVCL"
+"MVFLRVCL"
+"Char"
+ 1
+ 0
+*
+"Codice ubicazione"
+"DOC_DETT.MVCODUBI"
+"MVCODUBI"
+"Char"
+ 20
+ 0
+*
+"Qta importata 1^UM"
+"DOC_DETT.MVQTAIM1"
+"MVQTAIM1"
+"Numeric"
+ 18
+ 4
+*
+"Tipo provvigione"
+"DOC_DETT.MVTIPPRO"
+"MVTIPPRO"
+"Char"
+ 2
+ 0
+*
+"Segno dare/avere per analitica"
+"DOC_DETT.MV_SEGNO"
+"MV_SEGNO"
+"Char"
+ 1
+ 0
+*
+"Codice cespite associato"
+"DOC_DETT.MVCODCES"
+"MVCODCES"
+"Char"
+ 20
+ 0
+*
+"Movimento cespite associato"
+"DOC_DETT.MVCESSER"
+"MVCESSER"
+"Char"
+ 10
+ 0
+*
+"Qtà importata"
+"DOC_DETT.MVQTAIMP"
+"MVQTAIMP"
+"Numeric"
+ 18
+ 4
+*
+"Spese accessorie ripartite solo se presente codice IVA spese"
+"DOC_DETT.MVIMPAC2"
+"MVIMPAC2"
+"Numeric"
+ 18
+ 4
+*
+"Unità logistica SSCC"
+"DOC_DETT.MVUNILOG"
+"MVUNILOG"
+"Char"
+ 18
+ 0
+*
+"Percentuale provvigione capoarea"
+"DOC_DETT.MVPROCAP"
+"MVPROCAP"
+"Numeric"
+ 5
+ 2
+*
+"Importo provvigione capoarea"
+"DOC_DETT.MVIMPCAP"
+"MVIMPCAP"
+"Numeric"
+ 18
+ 4
+*
+"Tipo provvigione capoarea"
+"DOC_DETT.MVTIPPR2"
+"MVTIPPR2"
+"Char"
+ 2
+ 0
+*
+"Flag esclusione analitica di riga"
+"DOC_DETT.MVFLNOAN"
+"MVFLNOAN"
+"Char"
+ 1
+ 0
+*
+"Periodicità ordini aperti"
+"DOC_DETT.MVMC_PER"
+"MVMC_PER"
+"Char"
+ 3
+ 0
+*
+"Data inizio validità"
+"DOC_DETT.MVDATOAI"
+"MVDATOAI"
+"Date"
+ 8
+ 0
+*
+"Data fine validità"
+"DOC_DETT.MVDATOAF"
+"MVDATOAF"
+"Date"
+ 8
+ 0
+*
+"Paese origine fornitore"
+"DOC_DETT.MVPAEFOR"
+"MVPAEFOR"
+"Char"
+ 3
+ 0
+*
+"Codice porto/areoporto"
+"DOC_DETT.MVAIRPOR"
+"MVAIRPOR"
+"Char"
+ 10
+ 0
+*
+"Riferimento evasione EDI"
+"DOC_DETT.MVRIFEDI"
+"MVRIFEDI"
+"Char"
+ 40
+ 0
+*
+"Codice responsabile prestazione"
+"DOC_DETT.MVCODRES"
+"MVCODRES"
+"Char"
+ 5
+ 0
+*
+"Contributi accessori: riferimento riga articolo padre"
+"DOC_DETT.MVRIFCAC"
+"MVRIFCAC"
+"Numeric"
+ 5
+ 0
+*
+"Categoria contributo accessori- per esplosione"
+"DOC_DETT.MVCACONT"
+"MVCACONT"
+"Char"
+ 5
+ 0
+*
+"Codice magazzino per gestione saldi lotti"
+"DOC_DETT.MVLOTMAG"
+"MVLOTMAG"
+"Char"
+ 5
+ 0
+*
+"Codice magazzino collegato per gestione saldi lotti"
+"DOC_DETT.MVLOTMAT"
+"MVLOTMAT"
+"Char"
+ 5
+ 0
+*
+"riferimento riga prestazione collegata"
+"DOC_DETT.MVRIFPRE"
+"MVRIFPRE"
+"Numeric"
+ 5
+ 0
+*
+"Se valorizzato a S riga che ha generato righe prestazioni collegate"
+"DOC_DETT.MVRIGPRE"
+"MVRIGPRE"
+"Char"
+ 1
+ 0
+*
+"Riga documento web"
+"DOC_DETT.MVROWWEB"
+"MVROWWEB"
+"Numeric"
+ 6
+ 0
+*
+"Riga documento web"
+"[SPACES(10)]"
+"CPCCCHK"
+"Char"
+ 10
+ 0
+*
+"* Movimento fiscale in FOX"
+"DOC_DETT.MV__FISCA"
+"MV__FISCA"
+"Char"
+ 1
+ 0
+*
+ 0
+ 1
+"1"
+""
+"="
+"0"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+"Non è possibile estrarre tutti i campi con DOC_DETT.* perchè su db Postgres i campi memo sarebbero convertiti in char(1) dalla vq_exec"
+.f.
+.f.
+ 11
+.f.
+""
+*
